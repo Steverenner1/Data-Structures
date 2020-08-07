@@ -94,7 +94,6 @@ class DoublyLinkedList:
         self.delete(self.tail)
         return value
 
-
     """Removes the input node from its current spot in the 
     List and inserts it as the new head node of the List."""
     def move_to_front(self, node):
